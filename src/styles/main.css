@@ -1,0 +1,42 @@
+/*
+     STYLE
+*/
+@import 'sidebar.css';
+@import 'navbar.css';
+@import 'content.css';
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* background: #fafafa; */
+    background: #000000;
+    color: white;
+}
+
+
+img, svg {
+    vertical-align: 0;
+}
+
+.text-underline-hover {
+    text-decoration: none;
+}
+
+.text-underline-hover:hover {
+    text-decoration: underline;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.daftar {
+    height: 312px;
+    overflow: auto;
+    font-size: 13px;
+}
+
+.mt-15{
+    margin-top: 15px;
+}
+
+

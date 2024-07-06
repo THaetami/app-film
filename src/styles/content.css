@@ -1,0 +1,39 @@
+/* ---------------------------------------------------
+    CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: 100%;
+    padding: 20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px !important;
+    }
+}
+
+.badge.vote {
+    top: 3%;
+    right: 9%;
+    font-size: 1rem;
+}
+
+.movie-info {
+    text-align: left;
+    width: 100%;
+    top: 15%;
+    left: 0;
+}
+
+.mt-10{
+    margin-top: 20px;
+}
+
+.genre {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+}
